@@ -4,6 +4,8 @@ import path from 'path';
 import './database/connection';
 import routes from './routes';
 
+import 'express-async-errors';
+
 const app = express();
 
 app.use(express.json());
